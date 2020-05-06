@@ -14,7 +14,7 @@ public:
     chair(int id,int price)
     {//c2
         itemno=id;
-        this->price=price;
+        this->price=price;//to avoid ambiguity we use this operator 
 
     }
     chair(int id,int p,int stockno)
